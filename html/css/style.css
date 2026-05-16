@@ -17,3 +17,7 @@ div#map {
 body {
     background-color: #ffc3d3;
 }
+
+header nav {
+    --bs-tertiary-bg: #fe88a2;
+}
