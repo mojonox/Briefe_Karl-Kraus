@@ -13,3 +13,7 @@ div#map {
     text-decoration: underline dotted;
     cursor: pointer;
 }
+
+body {
+    background-color: #f2ffc2;
+}
