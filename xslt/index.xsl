@@ -32,6 +32,8 @@
                         <xsl:call-template name="one_time_alert"/>
                         <h1><xsl:value-of select="$project_short_title"/></h1>
                         <h2><xsl:value-of select="$project_title"/></h2>
+                        <p>Diese digitale Edition präsentiert eine Auswahl an Briefen, die an den österreichischen Schriftsteller und Satiriker Karl Kraus (1874–1936) gerichtet wurden.</p>
+                        <p>Die Edition entstand im Rahmen der Lehrveranstaltung „Aus dem Archiv ins Frontend - Digitale Editionen als statische Websiten" im Sommersemester 2026 an der Universität Wien.</p>
                         <div class="text-center p-4">
                             <xsl:call-template name="blockquote"/>
                         </div>
