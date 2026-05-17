@@ -33,3 +33,8 @@ main h1 {
 .blockquote {
     font-size: 1rem;
 }
+
+/* alle absätze größer */
+main p {
+    font-size: 1.5rem;
+}
