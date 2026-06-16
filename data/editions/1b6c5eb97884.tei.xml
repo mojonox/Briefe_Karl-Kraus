@@ -28,7 +28,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>R. K.</persName>
+               <persName ref="#rk">R. K.</persName>
                <placeName ref="#abbazia">Abbazia</placeName>
                <date when="1911-03-28">28. III. 1911</date>
             </correspAction>
@@ -57,7 +57,7 @@
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_4476594">
          <desc>
-            [Seite 2] Rückseite der Postkarte mit handgeschriebener Nachricht; längs geteilt:
+            [Seite 2] Rückseite der Postkarte mit handgeschriebener Nachricht und Adressfeld; längs geteilt:
             Linke Hälfte handschriftlicher Mitteilungstext in Bleistift, rechte Hälfte Adressfeld.
             Oben links die Nummer des Archivs, "H.I.N. 238.953", darüber bzw. daneben die Datierung "28. III. 1911"; rechts oben mit Bleistift die Zahl "28".
             Oben verläuft ein aufgeklebter, vergilbter Papierstreifen (Klebespur) diagonal über die obere Kartenhälfte.
@@ -72,18 +72,18 @@
    <text>
       <body>
          <pb facs="#surf-IMG_DEFAULT_4476593" n="1"/>
-            <p>Abbazia.</p>
+            <p rend="print">Abbazia.</p>
          <pb facs="#surf-IMG_DEFAULT_4476594" n="2"/>
             <opener>
-               <dateline when="1911-03-28">28. <choice><abbr>III.</abbr><expan>März</expan></choice> 1911</dateline>
+               <dateline when="1911-03-28">28. III. 1911</dateline>
                <salute>Lieber Herr <persName ref="#karl_kraus">Kraus</persName>.</salute>
             </opener>
             <p>
                Es ist sehr arg hier
                <lb/>und ich mache eine wahre Leidenszeit durch. Sobald
-               <lb/>ich aus <placeName>St. Margherita</placeName> eine
+               <lb/>ich aus <placeName ref="#st_margherita">St. Margherita</placeName> eine
                <lb/>Zusage habe reise ich über
-               <lb/><placeName>Veneding</placeName> - <placeName>Genua</placeName>. Die
+               <lb/><placeName ref="#venedig">Veneding</placeName> - <placeName ref="#genua">Genua</placeName>. Die
                <lb/>Sache ist einigermassen
                <lb/><choice><sic>compliciert</sic><reg>kompliziert</reg></choice>, da ich mein
                <lb/>kleines Mädl mithabe, 
