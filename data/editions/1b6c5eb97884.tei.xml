@@ -25,6 +25,19 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>R. K.</persName>
+               <placeName ref="#abbazia">Abbazia</placeName>
+               <date when="1911-03-28">28. III. 1911</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#karl_kraus">Karl Kraus</persName>
+               <placeName ref="#wien">Wien</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
    </teiHeader>
    <facsimile>
       <surface xml:id="surf-IMG_DEFAULT_4476593">
@@ -32,18 +45,18 @@
             [Seite 1] Vorderseite der Postkarte einer Uferpromenade.
             Titel "Abbazia" in roter Druckschrift.
          </desc>
-            <figDesc>
-               Schwarzweiß-Fotografie der Uferpromenade von Abbazia (heutiges Opatija, Kroatien).
-               Im Vordergrund ruhiges Wasser mit Spiegelungen, mitting ein kleines Segelboot mit aufgespanntem Segel und einer Person an Bord.
-               Im Mittelgrund ein hölzerner Steg, der ins Wasser ragt, flankiert von Felssteinen.
-               Im Hintergrund mehrere große Villen und Hotels, darunter links die "Pension Royal" mit lesbarem Schild an der Fassade.
-               Die Gebäude sind von dichtem Baumbestand umgeben, dahinter bewaldete Hügel.
-               Oben rechts roter Schriftzug mit Ortsbezeichnung.
-            </figDesc>
+         <figDesc>
+            Schwarzweiß-Fotografie der Uferpromenade von Abbazia (heutiges Opatija, Kroatien).
+            Im Vordergrund ruhiges Wasser mit Spiegelungen, mitting ein kleines Segelboot mit aufgespanntem Segel und einer Person an Bord.
+            Im Mittelgrund ein hölzerner Steg, der ins Wasser ragt, flankiert von Felssteinen.
+            Im Hintergrund mehrere große Villen und Hotels, darunter links die "Pension Royal" mit lesbarem Schild an der Fassade.
+            Die Gebäude sind von dichtem Baumbestand umgeben, dahinter bewaldete Hügel.
+            Oben rechts roter Schriftzug mit Ortsbezeichnung.
+         </figDesc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476593/full/full/0/default.jpg"/>
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_4476594">
-         <desc>[Seite 2] Hinterseite der Postkarte</desc>
+         <desc>[Seite 2] Hinterseite der Postkarte mit Nachricht.</desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476594/full/full/0/default.jpg"/>
       </surface>
    </facsimile>
@@ -53,17 +66,17 @@
             <p>Abbazia</p>
          <pb facs="#surf-IMG_DEFAULT_4476594" n="2"/>
             <opener>
-               <dateline>28. III. 1911</dateline>
-               <salute>Lieber Herr Kraus.</salute>
+               <dateline when="1911-03-28">28. <choice><abbr>III.</abbr><expan>März</expan></choice> 1911</dateline>
+               <salute>Lieber Herr <persName ref="#kraus_karl">Kraus</persName>.</salute>
             </opener>
             <p>
                Es ist sehr arg hier
                <lb/>und ich mache eine wahre Leidenszeit durch. Sobald
-               <lb/>ich aus St. Margherita eine
+               <lb/>ich aus <placeName>St. Margherita</placeName> eine
                <lb/>Zusage habe reise ich über
-               <lb/>Veneding - Genua. Die
+               <lb/><placeName>Veneding</placeName> - <placeName>Genua</placeName>. Die
                <lb/>Sache ist einigermassen
-               <lb/>compliciert, da ich mein
+               <lb/><choice><sic>compliciert</sic><reg>kompliziert</reg></choice>, da ich mein
                <lb/>kleines Mädl mithabe, 
                <lb/>ausserdem eine neue und
                <lb/>märchenhaft unbeholfene
@@ -73,7 +86,7 @@
                <lb/>zu wenig Rechte haben.
             </p>
             <closer>
-               <salute>Adieu. Ich grüße Sie.</salute>
+               <salute><lb/>Adieu. Ich grüße Sie.</salute>
                <signed>R.K.</signed>
                <address>
                   <addrLine>Herrn <hi rend="underline">Karl Kraus.</hi></addrLine>
@@ -82,7 +95,6 @@
                   <addrLine>Wien.</addrLine>
                </address>
             </closer>
-            <note type="Druckvermerk">38 - 1911. Magyar Sokszorositó Mülpar R.T.</note>
       </body>
    </text>
 </TEI>
