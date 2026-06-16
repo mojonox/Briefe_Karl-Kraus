@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte an Karl Kraus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Derived from METS record.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Postkarte an Karl Kraus</title>
+               <idno type="objid">4</idno>
+               <idno type="local">9910710133304516</idno>
+               <idno type="urn">urn:nbn:at:AT-WBR-899186</idno>
+               <idno type="HIN">238.953</idno>
+               <idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=4476592</idno>
+               <date when="1911-03-28" subtype="start">1911-03-28</date>
+               <date>1911</date>
+               <pubPlace>Abbazia</pubPlace>
+               <note type="issuance">monographic</note>
+               <extent>1 Kt., eh. Ms., eh. U.</extent>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_4476593">
+         <desc>
+            [Seite 1] Vorderseite der Postkarte einer Uferpromenade.
+            Titel "Abbazia" in roter Druckschrift.
+         </desc>
+            <figDesc>
+               Schwarzweiß-Fotografie der Uferpromenade von Abbazia (heutiges Opatija, Kroatien).
+               Im Vordergrund ruhiges Wasser mit Spiegelungen, mitting ein kleines Segelboot mit aufgespanntem Segel und einer Person an Bord.
+               Im Mittelgrund ein hölzerner Steg, der ins Wasser ragt, flankiert von Felssteinen.
+               Im Hintergrund mehrere große Villen und Hotels, darunter links die "Pension Royal" mit lesbarem Schild an der Fassade.
+               Die Gebäude sind von dichtem Baumbestand umgeben, dahinter bewaldete Hügel.
+               Oben rechts roter Schriftzug mit Ortsbezeichnung.
+            </figDesc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476593/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_4476594">
+         <desc>[Seite 2] Hinterseite der Postkarte</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476594/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb facs="#surf-IMG_DEFAULT_4476593" n="1"/>
+            <p>Abbazia</p>
+         <pb facs="#surf-IMG_DEFAULT_4476594" n="2"/>
+            <opener>
+               <dateline>28. III. 1911</dateline>
+               <salute>Lieber Herr Kraus.</salute>
+            </opener>
+            <p>
+               Es ist sehr arg hier
+               <lb/>und ich mache eine wahre Leidenszeit durch. Sobald
+               <lb/>ich aus St. Margherita eine
+               <lb/>Zusage habe reise ich über
+               <lb/>Veneding - Genua. Die
+               <lb/>Sache ist einigermassen
+               <lb/>compliciert, da ich mein
+               <lb/>kleines Mädl mithabe, 
+               <lb/>ausserdem eine neue und
+               <lb/>märchenhaft unbeholfene
+               <lb/>Engländerin. Sie wissen
+               <lb/>es, Sie allein, dass die
+               <lb/>Frauen zu viel Pflichten und
+               <lb/>zu wenig Rechte haben.
+            </p>
+            <closer>
+               <salute>Adieu. Ich grüße Sie.</salute>
+               <signed>R.K.</signed>
+               <address>
+                  <addrLine>Herrn <hi rend="underline">Karl Kraus.</hi></addrLine>
+                  <addrLine>I Dominikanerbastei 22.</addrLine>
+                  <addrLine>Th. 6.</addrLine>
+                  <addrLine>Wien.</addrLine>
+               </address>
+            </closer>
+            <note type="Druckvermerk">38 - 1911. Magyar Sokszorositó Mülpar R.T.</note>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ansichtskarte an Karl Kraus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Derived from METS record.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ansichtskarte an Karl Kraus</title>
+               <idno type="objid">4</idno>
+               <idno type="local">9910709608604516</idno>
+               <idno type="urn">urn:nbn:at:AT-WBR-1942198</idno>
+               <idno type="HIN">238.950</idno>
+               <idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5717032</idno>
+               <date when="1906-05-05" subtype="start">1906-05-05</date>
+               <date>1906</date>
+               <pubPlace>Ragusa</pubPlace>
+               <note type="issuance">monographic</note>
+               <extent>1 Kt., eh. Ms., eh. U.</extent>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5717033">
+         <desc>[Seite 1] Hinterseite der Postkarte</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717033/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5717034">
+         <desc>[Seite 2] Vorderseite der Postkarte: Fotografie eines Küstenweges mit Agaven,
+            Titel "Dubrovnik. — Ragusa." in rot; oben mittig handschriftliche
+            Addition des Postkartentextes in Bleistift.</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717034/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb facs="#surf-IMG_DEFAULT_5717033" n="1"/>
+            <opener>
+               <salute>Lieber Krause!</salute>
+            </opener>
+            <p>
+               Es
+               <lb/>geht uns hier sehr
+               <lb/>gut, aber wir möch
+               <lb/>ten <gap reason="illegible"/>es gerne
+               <lb/>Nachricht über Ihr
+               <lb/>Befinden haben.
+               <lb/>Bitte, bitte schrei-
+               <lb/>ben Sie bald
+            </p>
+            <closer>
+               <salute>Herzliche Grüsse</salute>
+               <signed>Von Julchen</signed>
+               <address>
+                  <addrLine>Herrn</addrLine>
+                  <addrLine>Karl Kraus</addrLine>
+                  <addrLine>Wien IV</addrLine>
+                  <addrLine>Schwindgasse 3</addrLine>
+               </address>
+            </closer>
+         <pb facs="#surf-IMG_DEFAULT_5717034" n="2"/>
+            <p>
+               Es ist wunderschön und Gott sei
+               <lb/>dank endlich einmal heiß,
+               <lb/>Ich habe bereits das <unclear>sog.</unclear>
+               <lb/><unclear>südl.</unclear>  <gap reason="illegible" unit="words" quantity="1"/> für
+               <lb/>ein <gap reason="illegible" unit="words" quantity="1"/> <unclear>Erfindung</unclear>
+               <lb/><gap reason="illegible" unit="words" quantity="2"/>
+               <lb/><gap reason="illegible" unit="words" quantity="1"/>
+            </p>
+      </body>
+   </text>
+</TEI>

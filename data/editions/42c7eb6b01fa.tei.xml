@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Karl Kraus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Derived from METS record.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Brief an Karl Kraus</title>
+               <idno type="objid">4</idno>
+               <idno type="local">9910709586104516</idno>
+               <idno type="urn">urn:nbn:at:AT-WBR-1932236</idno>
+               <idno type="HIN">238.965</idno>
+               <idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5618311</idno>
+               <date when="1901-03-11" subtype="start">1901-03-11</date>
+               <date>1901</date>
+               <pubPlace>Agram</pubPlace>
+               <note type="issuance">monographic</note>
+               <extent>2 Bl., eh. Ms., eh. U.</extent>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5618312">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618312/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5618313">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618313/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb facs="#surf-IMG_DEFAULT_5618312" n="1"/>
+            <opener>
+               <dateline>
+                  <placeName>Agram</placeName>
+                  <date when="1901-03-11">
+                     11/
+                     <hi rend="superscript">III</hi>
+                     .
+                     <lb/>1901
+                  </date>
+               </dateline>
+               <salute>Geehrter Herr!</salute>
+            </opener>
+            <p>Erst heute bin Ich
+               <lb/>von einer Reise aus
+               <lb/>Bosnien heimgekehrt,
+               <lb/><unclear reason="symbol" cert="medium">&amp;</unclear>
+               <lb/>finde in den Zeitungen
+               <lb/>den Prozess Bahr-Kraus.
+               <lb/>Meine Empörung können
+               <lb/>Sie sich wohl vorstellen.
+               <lb/>Dieser Affe hat sich also
+               <lb/>nicht entblödet so vor-
+               <lb/>-zugehen. Na offen
+               <lb/>gestanden sit von ihm
+            </p>
+         <pb facs="#surf-IMG_DEFAULT_5618313" n="2"/>
+            <!-- Seite 2: Zwei Schreibspalten -->
+            <cb n="2a"/>
+               <p>
+                  nichts besseres zu erwar
+                  <lb/>-ten. Ihnen Herr Kraus,
+                  <lb/>meine Achtung, Sie haben
+                  <lb/>ja wie immer Ihren, von 
+                  <lb/>mir bewunderten scharfen
+                  <lb/>Geist bewiesen. Und die
+                  <lb/>letze "Fackel" finde ich 
+                  <lb/>himmlisch, nur noch
+                  <lb/>mehr hätte Sie dem 
+                  <lb/>Bahr sagen können.
+                  <lb/>Wie ich diesen Idioten
+                  <lb/>hasse! Sie sind im
+                  <lb/>Recht, &amp; ich bewundere
+                  <lb/>&amp; ehre Sie. Nach Ostern
+                  <lb/>bin ich in Wien, darf
+                  <lb/>ich Sie da wohl auf
+               </p>
+            <cb n="2b"/>
+               <p>
+                  suchen?
+                  <lb/>Und nochmals versichere
+                  <lb/>ich Sie meiner größten
+                  <lb/>Bewunderung &amp; Sympathie
+                  <lb/>&amp; bin mit den besten
+                  <lb/>Empfehlungen
+               </p>
+            <closer>
+               <salute>Ihre ergebene</salute>
+               <signed>Cont. May v. H.</signed>
+            </closer>
+      </body>
+   </text>
+</TEI>

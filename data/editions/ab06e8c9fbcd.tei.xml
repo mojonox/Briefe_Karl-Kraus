@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Karl Kraus</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Derived from METS record.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Brief an Karl Kraus</title>
+               <idno type="objid">4</idno>
+               <idno type="local">9910709577304516</idno>
+               <idno type="urn">urn:nbn:at:AT-WBR-1942494</idno>
+               <idno type="HIN">238.886</idno>
+               <idno type="mets-url">https://www.digital.wienbibliothek.at/wbrobv02/oai/?verb=GetRecord&amp;metadataPrefix=mets&amp;identifier=5717170</idno>
+               <date when="1907-01-18" subtype="start">1907-01-18</date>
+               <date>1907</date>
+               <pubPlace>o.O.</pubPlace>
+               <note type="issuance">monographic</note>
+               <extent>2 Bl., eh. Ms., eh. U.</extent>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5717171">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717171/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5717172">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717172/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <pb facs="#surf-IMG_DEFAULT_5717171" n="1"/>
+            <opener>
+               <dateline>18/I. 07</dateline>
+               <salute>Lieber bester Krause.</salute>
+            </opener>
+            <p>
+               Ich habe Sie ja so lange
+               <lb/>nicht gesehen, dass ich
+               <lb/>glaube ich bin bei Ihnen
+               <lb/>schon ganz in Ungnade
+               <lb/>gefallen. Um so mehr
+               <lb/>hat es mich gefreut
+               <lb/>als <unclear>Lobbe</unclear> <unclear>recte</unclear> Cris-
+               <lb/>tosoletti mir heute
+               <lb/>die Cigarette mit Ihrem
+               <lb/>Emblème brachte. Ich
+               <lb/>danke Ihnen sehr
+               <lb/>dafür. Es soll die
+            </p>
+         <pb facs="#surf-IMG_DEFAULT_5717172" n="2"/>
+            <!-- Seite 2: Zwei Schreibspalten -->
+            <cb n="2a"/>
+               <p>
+                  Zierde u. Krone mein-
+                  <lb/>ner exclusiven Rari-
+                  <lb/>tätensammlung sein.
+                  <lb/>So habe ich wenigstens
+                  <lb/>ein Andenken an Sie
+                  <lb/>für den meine Ver-
+                  <lb/>ehrung <hi rend="underline">unveränder-
+                  <lb/>lich</hi> bleiben wird. -
+                  <lb/>Nun erlauben Sie
+                  <lb/>mir noch Ihnen zu
+                  <lb/>sagen, dass ich von
+                  <lb/>Ihrer letzten Fackel-
+                  <lb/>nummer <hi rend="underline">entzückt</hi>
+               </p>
+            <cb n="2b"/>
+               <p>
+                  bin u. Ihnen dazu gra-
+                  <lb/>tuliere. Sie ist ganz
+                  <lb/>Krause! Das will
+                  <lb/>viel sagen. 
+                  <lb/>Vergessen Sie mich
+                  <lb/>nicht ganz. - Viele
+                  <lb/>Grüße von mir u. Cris-
+                  <lb/>tosoletti. 
+               </p>
+               <closer>
+                  <salute>
+                     Ihre getreueste
+                     <lb/>Verehrerin
+                  </salute>
+                  <signed>Jule Stöckl</signed>
+               </closer>
+      </body>
+   </text>
+</TEI>
