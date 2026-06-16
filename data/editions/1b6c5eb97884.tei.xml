@@ -43,7 +43,7 @@
       <surface xml:id="surf-IMG_DEFAULT_4476593">
          <desc>
             [Seite 1] Vorderseite der Postkarte einer Uferpromenade.
-            Titel "Abbazia" in roter Druckschrift.
+            Rechts oben Orstname "Abbazia." in roter Druckschrift.
          </desc>
          <figDesc>
             Schwarzweiß-Fotografie der Uferpromenade von Abbazia (heutiges Opatija, Kroatien).
@@ -56,18 +56,27 @@
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476593/full/full/0/default.jpg"/>
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_4476594">
-         <desc>[Seite 2] Hinterseite der Postkarte mit Nachricht.</desc>
+         <desc>[Seite 2] Rückseite der Postkarte mit handgeschriebener Nachricht.</desc>
+         <figDesc>
+            Rückseite der Postkarte, längs geteilt: linke Hälfte handschriftlicher Mitteilungstext in Bleistift, rechte Hälfte Adressfeld.
+            Oben links die Nummer des Archivs, "H.I.N. 238.953", darüber bzw. daneben die Datierung "28. III. 1911"; rechts oben mit Bleistift die Zahl "28".
+            Oben verläuft ein aufgeklebter, vergilbter Papierstreifen (Klebespur) diagonal über die obere Kartenhälfte.
+            Rechts oben eine grüne österreichische 5-Heller-Marke (Kaiser Franz Joseph, "Österreichische Post"), darüber ein runder schwarzer Poststempel.
+            Mittig links ein violetter ovaler Stempel "WIENER STADT- U. LANDESBIBL.". 
+            Das Adressfeld rechts, von roten gestrichelten/durchgehenden Linien gegliedert, nennt den Empfänger: "Herrn Karl Kraus. / I Dominikanerbastei 22. / Th. 6. / Wien."
+            Unten ein roter Druckvermerk des Verlags "38–1911. Magyar Sokszorosító Müipar R. T." sowie ein kleines rotes Druckersignet.
+         </figDesc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/4476594/full/full/0/default.jpg"/>
       </surface>
    </facsimile>
    <text>
       <body>
          <pb facs="#surf-IMG_DEFAULT_4476593" n="1"/>
-            <p>Abbazia</p>
+            <p>Abbazia.</p>
          <pb facs="#surf-IMG_DEFAULT_4476594" n="2"/>
             <opener>
                <dateline when="1911-03-28">28. <choice><abbr>III.</abbr><expan>März</expan></choice> 1911</dateline>
-               <salute>Lieber Herr <persName ref="#kraus_karl">Kraus</persName>.</salute>
+               <salute>Lieber Herr <persName ref="#karl_kraus">Kraus</persName>.</salute>
             </opener>
             <p>
                Es ist sehr arg hier
