@@ -4,14 +4,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Brief an Karl Kraus</title>
+            <title>Brief an Karl Kraus von Cont. May v. H.</title>
          </titleStmt>
          <publicationStmt>
             <p>Derived from METS record.</p>
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Brief an Karl Kraus von Cont. May v. H.</title>
+               <title>Brief an Karl Kraus</title>
                <idno type="objid">4</idno>
                <idno type="local">9910709586104516</idno>
                <idno type="urn">urn:nbn:at:AT-WBR-1932236</idno>
@@ -65,7 +65,7 @@
             <p>Erst heute bin Ich
                <lb/>von einer Reise aus
                <lb/><placeName ref="#bosnien">Bosnien</placeName> heimgekehrt,
-               <lb/><unclear reason="symbol" cert="medium">&amp;</unclear> finde in den Zeitungen
+               <lb/>&amp; finde in den Zeitungen
                <lb/>den Prozess <persName ref="#hermann_bahr">Bahr</persName>-<persName ref="#karl_kraus">Kraus</persName>.
                <lb/>Meine Empörung können
                <lb/>Sie sich wohl vorstellen.
