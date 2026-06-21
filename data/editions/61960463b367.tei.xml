@@ -71,7 +71,7 @@
             </p>
             <closer>
                <salute>Herzliche Grüsse</salute>
-               <signed>Von Julchen</signed>
+               <signed>Von <persName ref="#jule_stoeckl">Julchen</persName></signed>
                <address>
                   <addrLine>Herrn</addrLine>
                   <addrLine>Karl Kraus</addrLine>
