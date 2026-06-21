@@ -74,7 +74,7 @@
                <signed>Von <persName ref="#jule_stoeckl">Julchen</persName></signed>
                <address>
                   <addrLine>Herrn</addrLine>
-                  <addrLine>Karl Kraus</addrLine>
+                  <addrLine><persName ref="#karl_kraus">Karl Kraus</persName></addrLine>
                   <addrLine><placeName ref="#wien">Wien</placeName> IV</addrLine>
                   <addrLine>Schwindgasse 3</addrLine>
                </address>
