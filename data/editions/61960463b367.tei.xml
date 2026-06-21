@@ -80,8 +80,8 @@
                </address>
             </closer>
          <pb facs="#surf-IMG_DEFAULT_5717034" n="2"/>
-            <p rend="print"><placeName ref="#ragusa">Dubrovnik</placeName>.  — <placeName ref="#ragusa">Ragusa</placeName>.</p>
-            <p>
+            <p> 
+               <hi rend="print"><placeName ref="#ragusa">Dubrovnik</placeName>.  — <placeName ref="#ragusa">Ragusa</placeName>.</hi>
                , <placeName ref="#ploce">Ploče</placeName> 94  1906
                <lb/>Es ist wunderschön und Gott sei
                <lb/>dank endlich einmal heiß,
