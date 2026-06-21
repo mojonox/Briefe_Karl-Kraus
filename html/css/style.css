@@ -60,3 +60,36 @@ main h1 {
 .blockquote {
     font-size: 1rem;
 }
+
+/* ====== Editorische Auszeichnungen ====== */
+/* Streichung */
+main del {
+    color: #8a7f6d;
+    text-decoration: line-through;
+}
+/* Unsichere Lesung (abbr title="unclear") */
+main abbr[title="unclear"] {
+    text-decoration: underline dotted #b08a3e;
+    cursor: help;
+}
+/* Hervorhebungen aus tei:hi */
+.italic { font-style: italic; }
+.bold { font-weight: 600; }
+.smallcaps { font-variant: small-caps; letter-spacing: .03em; }
+
+/* Seitenwechsel-Marke (tei:pb -> span.pb) */
+.pb {
+    display: inline-block;
+    font-size: .75rem;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0 .4em;
+    margin: 0 .3em;
+    vertical-align: middle;
+    user-select: none;
+}
+
+/* Fußnoten-Verweise */
+.footnotes { font-size: .9rem; color: #4a4034; }
