@@ -82,8 +82,8 @@
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
-                                <div>
-                                    <a href="{$teiSource}">
+                                <div class="tei-download">
+                                    <a href="{$teiSource}" class="tei-download-link">
                                         <i class="bi bi-download fs-2" title="Zum TEI/XML Dokument" visually-hidden="true">
                                             <span class="visually-hidden">Zum TEI/XML Dokument</span>
                                         </i>

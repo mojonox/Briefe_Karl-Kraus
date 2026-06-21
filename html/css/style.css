@@ -81,6 +81,7 @@ main h1, main h2, main h3 { color: var(--accent); }
 
 main h1 {
     margin-top: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .blockquote {
@@ -129,6 +130,30 @@ main abbr[title="unclear"] {
 
 .underline { text-decoration: underline; text-underline-offset: 2px; }
 .superscript { vertical-align: super; font-size: .75em; } 
+
+/* Download-Box (TEI/XML) – mittig zwischen Titel und Text, im Stil der Seitenmarke */
+.tei-download {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 2.5rem;
+}
+.tei-download-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: .25em .5em;
+    line-height: 1;
+    transition: background-color .15s ease, color .15s ease;
+}
+.tei-download-link:hover {
+    color: var(--link-hover);
+    background: #ecd9cf;
+}
+.tei-download-link i { line-height: 1; }
 
 .tei-page-row { display: flex; gap: 2rem; margin-bottom: 3rem; align-items: flex-start; position: relative; }
 
