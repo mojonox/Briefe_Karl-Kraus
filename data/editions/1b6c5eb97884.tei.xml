@@ -72,7 +72,9 @@
    <text>
       <body>
          <pb facs="#surf-IMG_DEFAULT_4476593" n="1"/>
-            <p rend="print">Abbazia.</p>
+            <p>
+               <hi rend="print"><placeName ref="#abbazia">Abbazia.</placeName></hi>
+            </p>
          <pb facs="#surf-IMG_DEFAULT_4476594" n="2"/>
             <opener>
                <dateline when="1911-03-28">28. III. 1911</dateline>
