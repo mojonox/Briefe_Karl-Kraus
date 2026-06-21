@@ -97,6 +97,7 @@ main del {
 /* Unsichere Lesung (abbr title="unclear") */
 main abbr[title="unclear"] {
     text-decoration: underline dotted #b08a3e;
+    color: #999;
     cursor: help;
 }
 
