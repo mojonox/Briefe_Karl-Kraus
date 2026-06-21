@@ -105,6 +105,7 @@
                         </div>
                         <xsl:for-each select=".//tei:body//tei:pb">
                             <div class="tei-page-row">
+                                <span class="pb-corner"><xsl:value-of select="./@n"/></span>
                                 <div class="tei-facs">
                                     <div class="osd-viewer" 
                                         id="osd-{position()}" 
@@ -114,6 +115,7 @@
                                 <div class="tei-text">
                                     <!-- Text dieser Seite: alles bis zum nächsten pb -->
                                     <xsl:apply-templates select="following-sibling::node()[
+                                        not(self::tei:pb) and
                                         generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())
                                     ]"/>
                                 </div>
