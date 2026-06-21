@@ -28,11 +28,23 @@
    </teiHeader>
    <facsimile>
       <surface xml:id="surf-IMG_DEFAULT_5618312">
-         <desc>[Seite 1]</desc>
+         <desc>
+            [Seite 1] Recto des gefalteten Doppelblatts (bräunliches Papier
+            mit Mittelfalz). Nur die rechte Blatthälfte beschrieben, linke
+            Hälfte leer. Oben links Signatur "H.I.N. 238.965", oben rechts
+            Ort und Datum, darunter Bleistiftnummer "11". Text in
+            violetter Tinte. Unten angeschnittener violetter Rundstempel
+            der Bibliothek.
+         </desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618312/full/full/0/default.jpg"/>
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_5618313">
-         <desc>[Seite 2]</desc>
+         <desc>
+            [Seite 2] Verso des Doppelblatts, beide Hälften beschrieben,
+            zweispaltig angelegt. Violetter Rundstempel der Bibliothek
+            mittig im Falz. Oben rechts bräunlicher Montierungs-/Klebestreifenrest.
+            Text in violetter Tinte.
+         </desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618313/full/full/0/default.jpg"/>
       </surface>
    </facsimile>
