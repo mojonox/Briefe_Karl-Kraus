@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Brief an Karl Kraus</title>
+            <title>Brief an Karl Kraus von Jule Stöckl</title>
          </titleStmt>
          <publicationStmt>
             <p>Derived from METS record.</p>
@@ -28,11 +28,22 @@
    </teiHeader>
    <facsimile>
       <surface xml:id="surf-IMG_DEFAULT_5717171">
-         <desc>[Seite 1]</desc>
+         <desc>
+            [Seite 1] Recto des gefalteten Doppelblatts (bräunliches Papier mit Mittelfalz und Querfalzen, schwaches Wasserzeichen). 
+            Nur die rechte Blatthälfte beschrieben, linke Hälfte leer. 
+            Text in schwarzer Tinte. 
+            Oben links Bleistiftsignatur "H.I.N. 238.886", oben rechts Datum "18/I. 07" und Bleistiftnummer. 
+            Unten angeschnittener violetter Rundstempel der Bibliothek.
+         </desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717171/full/full/0/default.jpg"/>
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_5717172">
-         <desc>[Seite 2]</desc>
+         <desc>   
+            [Seite 2] Verso des Doppelblatts, beide Hälften beschrieben, zweispaltig angelegt. 
+            Text in schwarzer Tinte mit mehreren unterstrichenen Wörtern. 
+            Violetter Rundstempel der Bibliothek mittig im Falz. 
+            Oben rechts bräunlicher Montierungs-/Klebestreifenrest.
+         </desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717172/full/full/0/default.jpg"/>
       </surface>
    </facsimile>
@@ -40,8 +51,8 @@
       <body>
          <pb facs="#surf-IMG_DEFAULT_5717171" n="1"/>
             <opener>
-               <dateline>18/I. 07</dateline>
-               <salute>Lieber bester Krause.</salute>
+               <dateline><lb/>18/I. 07</dateline>
+               <salute>Lieber bester <persName ref="#karl_kraus">Krause</persName>.</salute>
             </opener>
             <p>
                Ich habe Sie ja so lange
@@ -50,8 +61,8 @@
                <lb/>schon ganz in Ungnade
                <lb/>gefallen. Um so mehr
                <lb/>hat es mich gefreut
-               <lb/>als <unclear>Lobbe</unclear> <unclear>recte</unclear> Cris-
-               <lb/>tosoletti mir heute
+               <lb/>als <persName ref="#cristosoletti"><unclear>Lobbe</unclear><unclear>recte</unclear>Cris-
+               <lb/>tosoletti</persName> mir heute
                <lb/>die Cigarette mit Ihrem
                <lb/>Emblème brachte. Ich
                <lb/>danke Ihnen sehr
@@ -79,19 +90,19 @@
                <p>
                   bin u. Ihnen dazu gra-
                   <lb/>tuliere. Sie ist ganz
-                  <lb/>Krause! Das will
+                  <lb/><persName ref="#karl_kraus">Krause</persName>! Das will
                   <lb/>viel sagen. 
                   <lb/>Vergessen Sie mich
                   <lb/>nicht ganz. - Viele
-                  <lb/>Grüße von mir u. Cris-
-                  <lb/>tosoletti. 
+                  <lb/>Grüße von mir u. <persName ref="#cristosoletti">Cris-
+                  <lb/>tosoletti</persName>. 
                </p>
                <closer>
                   <salute>
                      Ihre getreueste
                      <lb/>Verehrerin
                   </salute>
-                  <signed>Jule Stöckl</signed>
+                  <signed><persName ref="#jule_stoeckl">Jule Stöckl</persName></signed>
                </closer>
       </body>
    </text>
