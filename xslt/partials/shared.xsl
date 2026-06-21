@@ -103,6 +103,17 @@
         </span>
     </xsl:template>
 
+    <xsl:template match="tei:p">
+        <xsl:choose>
+            <xsl:when test="@rend='print'">
+                <p class="print"><xsl:apply-templates/></p>
+            </xsl:when>
+            <xsl:otherwise>
+                <p><xsl:apply-templates/></p>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template match="tei:ref">
         <a class="ref {@type}" href="{@target}"><xsl:apply-templates/></a>
     </xsl:template>

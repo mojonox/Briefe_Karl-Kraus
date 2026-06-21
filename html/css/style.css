@@ -103,6 +103,13 @@ main abbr[title="unclear"] {
 .bold { font-weight: 600; }
 .smallcaps { font-variant: small-caps; letter-spacing: .03em; }
 
+/* Gedruckte Ortsnamen (rote Drucktypen im Original) */
+.print {
+    color: #b22222;
+    font-variant: small-caps;
+    letter-spacing: 0.04em;
+}
+
 /* Seitenwechsel-Marke (tei:pb -> span.pb) */
 .pb {
     display: inline-block;
