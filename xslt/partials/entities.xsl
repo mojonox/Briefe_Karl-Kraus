@@ -267,4 +267,8 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend='bold']">
+        <strong><xsl:apply-templates/></strong>
+    </xsl:template>
 </xsl:stylesheet>
