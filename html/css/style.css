@@ -52,6 +52,7 @@ div#map {
 body {
     background-color: var(--bg);
     color: var(--text);
+    font-family: 'EB Garamond', Georgia, serif;
 }
 
 /* Navbar in Bordeaux statt Pink */
