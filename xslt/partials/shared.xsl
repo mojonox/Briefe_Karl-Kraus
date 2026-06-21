@@ -50,9 +50,6 @@
     <xsl:template match="tei:signed">
         <div class="tei-signed"><xsl:apply-templates/></div>
     </xsl:template>
-    <xsl:template match="tei:address">
-        <div class="tei-address"><xsl:apply-templates/></div>
-    </xsl:template>
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
@@ -127,7 +124,14 @@
     </xsl:template>
 
     <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+    <xsl:choose>
+        <xsl:when test="@rend='print'">
+            <p class="print"><xsl:apply-templates/></p>
+        </xsl:when>
+        <xsl:otherwise>
+            <p><xsl:apply-templates/></p>
+        </xsl:otherwise>
+    </xsl:choose>
     </xsl:template>
 
     <xsl:template match="tei:address">
@@ -148,9 +152,6 @@
     </xsl:template>
     <xsl:template match="tei:l">
         <xsl:apply-templates/><br/>
-    </xsl:template>
-    <xsl:template match="tei:p">
-       <p><xsl:apply-templates/></p>
     </xsl:template>
 
     <xsl:template match="tei:persName">
