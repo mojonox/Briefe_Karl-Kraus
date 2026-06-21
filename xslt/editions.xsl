@@ -30,7 +30,6 @@
         <xsl:value-of select=".//tei:titleStmt/tei:title[1]/text()"/>
     </xsl:variable>
 
-
     <xsl:template match="/">
         <html class="h-100" lang="{$default_lang}">
             <head>
@@ -104,7 +103,22 @@
                                 </xsl:if>
                             </div>
                         </div>
-                        <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
+                        <xsl:for-each select=".//tei:body//tei:pb">
+                            <div class="tei-page-row">
+                                <div class="tei-facs">
+                                    <div class="osd-viewer" 
+                                        id="osd-{position()}" 
+                                        data-iiif="{//tei:surface[concat('#', @xml:id) = current()/@facs]/tei:graphic/@url}">
+                                    </div>
+                                </div>
+                                <div class="tei-text">
+                                    <!-- Text dieser Seite: alles bis zum nächsten pb -->
+                                    <xsl:apply-templates select="following-sibling::node()[
+                                        generate-id(preceding-sibling::tei:pb[1]) = generate-id(current())
+                                    ]"/>
+                                </div>
+                            </div>
+                        </xsl:for-each>
                         <p style="text-align:center;">
                             <xsl:for-each select=".//tei:note[not(./tei:p)]">
                                 <div class="footnotes">
@@ -143,6 +157,17 @@
                 </main>
                 <xsl:call-template name="html_footer"/>
                 <script src="vendor/openseadragon-bin-4.1.1/openseadragon.min.js"/>
+                <script>
+                    document.querySelectorAll('.osd-viewer').forEach(function(el) {
+                        var jpg = el.dataset.iiif;
+                        var info = jpg.replace(/\/full\/full\/0\/default\.jpg$/, '/info.json');
+                        OpenSeadragon({
+                            id: el.id,
+                            prefixUrl: "vendor/openseadragon-bin-4.1.1/images/",
+                            tileSources: info
+                         });
+                    });
+                </script>
             </body>
         </html>
     </xsl:template>
