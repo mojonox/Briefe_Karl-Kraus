@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ansichtskarte an Karl Kraus</title>
+            <title>Ansichtskarte an Karl Kraus von Jule Stöckl</title>
          </titleStmt>
          <publicationStmt>
             <p>Derived from METS record.</p>
@@ -28,13 +28,28 @@
    </teiHeader>
    <facsimile>
       <surface xml:id="surf-IMG_DEFAULT_5717033">
-         <desc>[Seite 1] Hinterseite der Postkarte</desc>
+         <desc>
+            [Seite 1] Rückseite/Textseite der liegenden Correspondenz-Karte (cremefarbenes Papier). 
+            Gedruckter Kopf "Correspondenz-Karte. — Dopisnica. / Cartolina di corrispondenza.". 
+            Links am Rand vertikal verlaufender Brieftext in Bleistift, an der linken Kante bräunlicher Montierungs-/Klebestreifenrest. 
+            Oben links Bleistiftsignatur "H.I.N. 238.950", oben rechts Nummer "17". 
+            Rechts das Adressfeld in Tinte, darunter angeschnittener violetter Rundstempel der Bibliothek; oben rechts blaue 5-Heller-Marke mit Poststempel "Dubrovnik/Ragusa". 
+            Unten gedruckter Verlagsvermerk "D. K. Bp. 1906 – 1203.".
+         </desc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717033/full/full/0/default.jpg"/>
       </surface>
       <surface xml:id="surf-IMG_DEFAULT_5717034">
-         <desc>[Seite 2] Vorderseite der Postkarte: Fotografie eines Küstenweges mit Agaven,
+         <desc>
+            [Seite 2] Vorderseite der Postkarte: Fotografie eines Küstenweges mit Agaven,
             Titel "Dubrovnik. — Ragusa." in rot; oben mittig handschriftliche
-            Addition des Postkartentextes in Bleistift.</desc>
+            Addition des Postkartentextes in Bleistift.
+         </desc>
+         <figDesc> 
+            Sepiafarbene Fotografie eines schmalen Küstenweges. 
+            Links im Vordergrund mehrere hohe, blühende Agaven (Agavenblütenstände), dahinter das Meer mit flacher Küstenlinie. 
+            Rechts dichte mediterrane Vegetation entlang des Weges sowie ein hoher Telegrafenmast. 
+            Der Weg führt vom Vordergrund in die Bildtiefe.
+         </figDesc>
          <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5717034/full/full/0/default.jpg"/>
       </surface>
    </facsimile>
@@ -42,7 +57,7 @@
       <body>
          <pb facs="#surf-IMG_DEFAULT_5717033" n="1"/>
             <opener>
-               <salute>Lieber Krause!</salute>
+               <salute><lb/>Lieber Krause!</salute>
             </opener>
             <p>
                Es
