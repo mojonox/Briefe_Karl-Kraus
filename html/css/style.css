@@ -93,3 +93,6 @@ main abbr[title="unclear"] {
 
 /* Fußnoten-Verweise */
 .footnotes { font-size: .9rem; color: #4a4034; }
+
+.underline { text-decoration: underline; text-underline-offset: 2px; }
+.superscript { vertical-align: super; font-size: .75em; }
