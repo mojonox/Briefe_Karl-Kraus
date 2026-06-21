@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/eb-garamond-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/eb-garamond-latin-400-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/eb-garamond-latin-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* needed for interactive map in listplace.xsl */
 div#map {
     height: 50vh;
@@ -35,6 +59,7 @@ header nav {
     --bs-tertiary-bg: var(--accent);
     --bs-tertiary-bg-rgb: 123, 45, 38;
 }
+
 /* Navbar-Text/Links hell, damit auf Bordeaux lesbar */
 header nav .navbar-brand,
 header nav .nav-link,
@@ -95,4 +120,4 @@ main abbr[title="unclear"] {
 .footnotes { font-size: .9rem; color: #4a4034; }
 
 .underline { text-decoration: underline; text-underline-offset: 2px; }
-.superscript { vertical-align: super; font-size: .75em; }
+.superscript { vertical-align: super; font-size: .75em; }   
