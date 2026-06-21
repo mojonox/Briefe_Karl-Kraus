@@ -127,14 +127,7 @@
     </xsl:template>
 
     <xsl:template match="tei:p">
-        <xsl:choose>
-            <xsl:when test="@rend='print'">
-                <p class="print"><xsl:apply-templates/></p>
-            </xsl:when>
-            <xsl:otherwise>
-                <p><xsl:apply-templates/></p>
-            </xsl:otherwise>
-        </xsl:choose>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 
     <xsl:template match="tei:address">
