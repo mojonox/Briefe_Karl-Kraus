@@ -11,7 +11,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Brief an Karl Kraus</title>
+               <title>Brief an Karl Kraus von Cont. May v. H.</title>
                <idno type="objid">4</idno>
                <idno type="local">9910709586104516</idno>
                <idno type="urn">urn:nbn:at:AT-WBR-1932236</idno>
@@ -45,15 +45,16 @@
                   <date when="1901-03-11">
                      11/
                      <hi rend="superscript">III</hi>
+                     <lb/> 1901
                   </date>
                </dateline>
                <salute><lb/>Geehrter Herr!</salute>
             </opener>
             <p>Erst heute bin Ich
                <lb/>von einer Reise aus
-               <lb/>Bosnien heimgekehrt,
+               <lb/><placeName ref="#bosnien">Bosnien</placeName> heimgekehrt,
                <lb/><unclear reason="symbol" cert="medium">&amp;</unclear> finde in den Zeitungen
-               <lb/>den Prozess Bahr-Kraus.
+               <lb/>den Prozess <persName ref="#hermann_bahr">Bahr</persName>-<persName ref="#karl_kraus">Kraus</persName>.
                <lb/>Meine Empörung können
                <lb/>Sie sich wohl vorstellen.
                <lb/>Dieser Affe hat sich also
@@ -66,7 +67,7 @@
             <cb n="2a"/>
                <p>
                   nichts besseres zu erwar
-                  <lb/>-ten. Ihnen Herr Kraus,
+                  <lb/>-ten. Ihnen Herr <persName ref="#karl_kraus">Kraus</persName>,
                   <lb/>meine Achtung, Sie haben
                   <lb/>ja wie immer Ihren, von 
                   <lb/>mir bewunderten scharfen
@@ -74,12 +75,12 @@
                   <lb/>letze "Fackel" finde ich 
                   <lb/>himmlisch, nur noch
                   <lb/>mehr hätte Sie dem 
-                  <lb/>Bahr sagen können.
+                  <lb/><persName ref="#hermann_bahr">Bahr</persName> sagen können.
                   <lb/>Wie ich diesen Idioten
                   <lb/>hasse! Sie sind im
                   <lb/>Recht, &amp; ich bewundere
                   <lb/>&amp; ehre Sie. Nach Ostern
-                  <lb/>bin ich in Wien, darf
+                  <lb/>bin ich in <placeName ref="#wien">Wien</placeName>, darf
                   <lb/>ich Sie da wohl auf
                </p>
             <cb n="2b"/>
@@ -93,7 +94,7 @@
                </p>
             <closer>
                <salute>Ihre ergebene</salute>
-               <signed>Cont. May v. H.</signed>
+               <signed><persName ref="#may_v_h">Cont. May v. H.</persName></signed>
             </closer>
       </body>
    </text>
