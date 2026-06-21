@@ -216,6 +216,14 @@
                     </dd>
                 </xsl:for-each>
             </xsl:if>
+            <xsl:if test="./tei:note[not(@type)]">
+                <dt>Beschreibung</dt>
+                <xsl:for-each select="./tei:note[not(@type)]">
+                    <dd>
+                        <xsl:value-of select="."/>
+                    </dd>
+                </xsl:for-each>
+            </xsl:if>
             <xsl:if test=".//tei:location">
                 <dt>Breitengrad</dt>
                 <dd>
