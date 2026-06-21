@@ -130,12 +130,13 @@ main abbr[title="unclear"] {
 .underline { text-decoration: underline; text-underline-offset: 2px; }
 .superscript { vertical-align: super; font-size: .75em; } 
 
-.tei-page-row { display: flex; gap: 2rem; margin-bottom: 3rem; align-items: flex-start; }
+.tei-page-row { display: flex; gap: 2rem; margin-bottom: 3rem; align-items: flex-start; position: relative; }
 
 .pb-corner {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 100%;
+    margin-right: .5rem;
     z-index: 2;
     font-size: .75rem;
     color: var(--accent);
