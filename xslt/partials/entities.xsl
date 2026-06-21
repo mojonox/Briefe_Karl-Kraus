@@ -125,6 +125,14 @@
                     <xsl:value-of select="./tei:death/tei:date"/>
                 </dd>
             </xsl:if>
+            <xsl:if test="./tei:note[not(@type)]">
+                <dt>Beschreibung</dt>
+                <xsl:for-each select="./tei:note[not(@type)]">
+                    <dd>
+                        <xsl:value-of select="."/>
+                    </dd>
+                </xsl:for-each>
+            </xsl:if>
             <xsl:if test="./tei:idno">
                 <dt>Identifiers</dt>
                 <xsl:for-each select="./tei:idno">
