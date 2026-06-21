@@ -24,7 +24,6 @@
                </persName>
                <birth><date when="1874-04-28">28. April 1874</date></birth>
                <death><date when="1936-06-12">12. Juni 1936</date></death>
-               <idno>https://d-nb.info/gnd/118566237</idno>
                <note>Empfänger der Korrespondenz; österreichischer Schriftsteller, Satiriker und Herausgeber der Zeitschrift "Die Fackel".</note>
             </person>
             <person xml:id="hermann_bahr">
@@ -32,6 +31,8 @@
                   <forename>Hermann</forename>
                   <surname>Bahr</surname>
                </persName>
+               <birth><date when="1863-07-19">19. Juli 1863</date></birth>
+               <death><date when="1934-01-15">15. Januar 1934</date></death>
                <note>Österreichischer Schriftsteller und Kritiker; im Brief von 1901 im Zusammenhang mit dem Prozess Bahr-Kraus erwähnt.</note>
             </person>
             <person xml:id="jule_stoeckl">
