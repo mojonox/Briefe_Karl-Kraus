@@ -114,6 +114,16 @@
         </xsl:choose>
     </xsl:template>
 
+    <xsl:template match="tei:address">
+        <div class="tei-address">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:addrLine">
+        <span class="tei-addrLine"><xsl:apply-templates/></span>
+    </xsl:template>
+
     <xsl:template match="tei:ref">
         <a class="ref {@type}" href="{@target}"><xsl:apply-templates/></a>
     </xsl:template>
