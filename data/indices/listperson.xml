@@ -7,10 +7,10 @@
             <title>Personenregister</title>
          </titleStmt>
          <publicationStmt>
-            <p>Zentrales Register der in der Edition genannten Personen.</p>
+            <p>Personenregister zur Edition der Korrespondenz an Karl Kraus.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Erstellt aus den edierten Briefen und Postkarten an Karl Kraus.</p>
+            <p>Aus den Editionsdateien abgeleitete Liste der erwähnten Personen.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -22,35 +22,34 @@
                   <forename>Karl</forename>
                   <surname>Kraus</surname>
                </persName>
-               <note>Empfänger der edierten Briefe und Postkarten.</note>
-            </person>
-            <person xml:id="rk">
-               <persName>R. K.</persName>
-               <note>Absenderin der Postkarte aus Abbazia (1911); Identität nicht ermittelt, nur Initialen "R. K." in der Unterschrift.</note>
+               <note>Empfänger der Korrespondenz; österreichischer Schriftsteller, Satiriker und Herausgeber der Zeitschrift "Die Fackel".</note>
             </person>
             <person xml:id="hermann_bahr">
                <persName>
                   <forename>Hermann</forename>
                   <surname>Bahr</surname>
                </persName>
-               <note>Im Brief aus Agram (1901) im "Prozess Bahr-Kraus" genannt. Zuordnung zu Hermann Bahr aufgrund von Datum und Kontext (Bahr-Kraus-Prozess 1901); im Stück nur als "Bahr" geschrieben.</note>
-            </person>
-            <person xml:id="may_v_h">
-               <persName>Cont. May v. H.</persName>
-               <note>Absenderin des Briefs aus Agram (1901); Identität nicht ermittelt. Unterschrift "Cont. May v. H." (vermutlich "Comtesse/Contesse May v. H.").</note>
+               <note>Österreichischer Schriftsteller und Kritiker; im Brief von 1901 im Zusammenhang mit dem Prozess Bahr-Kraus erwähnt.</note>
             </person>
             <person xml:id="jule_stoeckl">
                <persName>
                   <forename>Jule</forename>
                   <surname>Stöckl</surname>
                </persName>
-               <persName type="alias">Julchen</persName>
-               <note>Absenderin der Ansichtskarte aus Ragusa (1906, Unterschrift "Von Julchen") und des Briefs von 1907 (Unterschrift "Jule Stöckl"). "Julchen" ist die Koseform.</note>
+               <persName type="alt">Julchen</persName>
+               <note>Absenderin der Ansichtskarte (1906) und des Briefes (1907).</note>
             </person>
             <person xml:id="cristosoletti">
                <persName>Cristosoletti</persName>
-               <persName type="alias">Lobbe</persName>
-               <note>Im Brief von 1907 genannt ("Lobbe recte Cristosoletti"); überbringt Karl Kraus' Zigarette mit Emblem. "Lobbe" offenbar Spitz-/Deckname, "recte" verweist auf den eigentlichen Namen Cristosoletti. Identität nicht weiter ermittelt.</note>
+               <note>Im Brief von Jule Stöckl (1907) erwähnt; die Lesung des Namens ist unsicher ("Lobbe recte Cristosoletti").</note>
+            </person>
+            <person xml:id="rk">
+               <persName>R. K.</persName>
+               <note>Absender:in der Postkarte aus Abbazia (1911); nur durch die Initialen "R. K." bezeichnet, Identität nicht ermittelt.</note>
+            </person>
+            <person xml:id="may_v_h">
+               <persName>Cont. May v. H.</persName>
+               <note>Absender:in des Briefes aus Agram (1901); nur durch Kürzel bezeichnet, Identität nicht ermittelt.</note>
             </person>
          </listPerson>
       </body>

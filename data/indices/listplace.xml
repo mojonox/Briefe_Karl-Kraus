@@ -7,10 +7,10 @@
             <title>Ortsregister</title>
          </titleStmt>
          <publicationStmt>
-            <p>Zentrales Register der in der Edition genannten Orte.</p>
+            <p>Ortsregister zur Edition der Korrespondenz an Karl Kraus.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Erstellt aus den edierten Briefen und Postkarten an Karl Kraus.</p>
+            <p>Aus den Editionsdateien abgeleitete Liste der erwähnten Orte. Koordinaten nach den heutigen Orten.</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -20,41 +20,71 @@
             <place xml:id="abbazia">
                <placeName>Abbazia</placeName>
                <placeName xml:lang="hr">Opatija</placeName>
-               <note>Kurort an der kroatischen Adriaküste (heute Opatija); Absendeort der Postkarte von 1911.</note>
+               <location>
+                  <geo>45.3378 14.3094</geo>
+               </location>
+               <note>Kurort an der kroatischen Adriaküste (heute Opatija, Kroatien); Absendeort der Postkarte von 1911.</note>
             </place>
             <place xml:id="wien">
                <placeName>Wien</placeName>
-               <note>Wohnort von Karl Kraus; Empfangsort der Korrespondenz.</note>
-            </place>
-            <place xml:id="agram">
-               <placeName>Agram</placeName>
-               <placeName xml:lang="hr">Zagreb</placeName>
-               <note>Absendeort des Briefs von 1901 (deutscher Name Agram, heute Zagreb, Kroatien).</note>
-            </place>
-            <place xml:id="bosnien">
-               <placeName>Bosnien</placeName>
-               <note>Im Brieftext genannt als Reiseziel, von dem die Absenderin zurückgekehrt ist.</note>
+               <location>
+                  <geo>48.2082 16.3738</geo>
+               </location>
+               <note>Wohnort von Karl Kraus; Empfangsort der Korrespondenz (Österreich).</note>
             </place>
             <place xml:id="st_margherita">
                <placeName>St. Margherita</placeName>
-               <note>Im Brieftext genannter Ort (vermutlich Santa Margherita Ligure, Italien).</note>
+               <placeName xml:lang="it">Santa Margherita Ligure</placeName>
+               <location>
+                  <geo>44.3353 9.2106</geo>
+               </location>
+               <note>Vermutlich Santa Margherita Ligure in Ligurien, Italien; im Brief von R. K. (1911) als geplantes Reiseziel genannt.</note>
             </place>
             <place xml:id="venedig">
                <placeName>Venedig</placeName>
                <placeName xml:lang="it">Venezia</placeName>
+               <location>
+                  <geo>45.4408 12.3155</geo>
+               </location>
+               <note>Stadt in Italien; im Brief von R. K. (1911) als Station der geplanten Reise genannt.</note>
             </place>
             <place xml:id="genua">
                <placeName>Genua</placeName>
                <placeName xml:lang="it">Genova</placeName>
+               <location>
+                  <geo>44.4056 8.9463</geo>
+               </location>
+               <note>Stadt in Italien; im Brief von R. K. (1911) als Reiseziel genannt.</note>
+            </place>
+            <place xml:id="agram">
+               <placeName>Agram</placeName>
+               <placeName xml:lang="hr">Zagreb</placeName>
+               <location>
+                  <geo>45.8150 15.9819</geo>
+               </location>
+               <note>Heute Zagreb, Kroatien; Absendeort des Briefes von Cont. May v. H. (1901).</note>
+            </place>
+            <place xml:id="bosnien">
+               <placeName>Bosnien</placeName>
+               <location>
+                  <geo>44.0000 18.0000</geo>
+               </location>
+               <note>Historische Region (heute Teil von Bosnien und Herzegowina); im Brief von Cont. May v. H. (1901) erwähnt. Die Koordinate bezeichnet näherungsweise den Mittelpunkt der Region.</note>
             </place>
             <place xml:id="ragusa">
                <placeName>Ragusa</placeName>
                <placeName xml:lang="hr">Dubrovnik</placeName>
-               <note>Absendeort der Ansichtskarte von 1906 (deutscher/italienischer Name Ragusa, heute Dubrovnik, Kroatien). Auf dem gedruckten Kartentitel "Dubrovnik. — Ragusa." und im Poststempel.</note>
+               <location>
+                  <geo>42.6507 18.0944</geo>
+               </location>
+               <note>Heute Dubrovnik, Kroatien; Motiv und Absendeort der Ansichtskarte von Jule Stöckl (1906).</note>
             </place>
             <place xml:id="ploce">
                <placeName>Ploče</placeName>
-               <note>Handschriftlich auf der Bildseite der Ansichtskarte von 1906 notiert ("Ploče 94"); Ort an der dalmatinischen Küste (heute Kroatien).</note>
+               <location>
+                  <geo>43.0567 17.4339</geo>
+               </location>
+               <note>Ort an der kroatischen Adriaküste; auf der Ansichtskarte von Jule Stöckl (1906) genannt.</note>
             </place>
          </listPlace>
       </body>
