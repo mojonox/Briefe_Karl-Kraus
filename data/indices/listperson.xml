@@ -44,15 +44,28 @@
                <note>Absenderin der Ansichtskarte (1906) und des Briefes (1907).</note>
             </person>
             <person xml:id="cristofoletti">
-               <persName>Cristofoletti</persName>
+               <persName>
+                  <forename></forename>
+                  <surname>Cristofoletti</surname>
+               </persName>
                <note>Im Brief von Jule Stöckl (1907) erwähnt; die Lesung des Namens ist unsicher (Cristosoletti?).</note>
             </person>
             <person xml:id="rk">
-               <persName>R. K.</persName>
-               <note>Absender:in der Postkarte aus Abbazia (1911); nur durch die Initialen "R. K." bezeichnet, Identität nicht ermittelt.</note>
+               <persName>
+                  <forename>R.</forename>
+                  <surname>K.</surname>
+               </persName>
+               <note>
+                  Absender:in der Postkarte aus Abbazia (1911); nur durch die Initialen "R. K." bezeichnet, Identität nicht ermittelt.
+               </note>
             </person>
             <person xml:id="may_v_h">
-               <persName>Cont. May v. H.</persName>
+               <persName>
+                  <roleName>Cont.</roleName>
+                  <forename>May</forename>
+                  <nameLink>v.</nameLink>
+                  <surname>H.</surname>
+               </persName>
                <note>Absender:in des Briefes aus Agram (1901); nur durch Kürzel bezeichnet, Identität nicht ermittelt.</note>
             </person>
          </listPerson>
