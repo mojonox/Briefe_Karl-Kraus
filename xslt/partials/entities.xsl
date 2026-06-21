@@ -129,7 +129,7 @@
                 <dt>Beschreibung</dt>
                 <xsl:for-each select="./tei:note[not(@type)]">
                     <dd>
-                        <xsl:value-of select="."/>
+                         <xsl:apply-templates select="node()"/>
                     </dd>
                 </xsl:for-each>
             </xsl:if>
@@ -217,10 +217,10 @@
                 </xsl:for-each>
             </xsl:if>
             <xsl:if test="./tei:note[not(@type)]">
-                <dt>Informationen</dt>
+                <dt>Beschreibung</dt>
                 <xsl:for-each select="./tei:note[not(@type)]">
                     <dd>
-                        <xsl:apply-templates select="./tei:note/node()"/>
+                        <xsl:value-of select="."/>
                     </dd>
                 </xsl:for-each>
             </xsl:if>
