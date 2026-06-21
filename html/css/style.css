@@ -187,3 +187,7 @@ main abbr[title="unclear"] {
     display: block;
     line-height: 1.6;
 }
+
+.tei-opener { margin-bottom: 1.5em; }
+.tei-closer { margin-top: 1.5em; }
+.tei-salute { margin-bottom: 1em; }

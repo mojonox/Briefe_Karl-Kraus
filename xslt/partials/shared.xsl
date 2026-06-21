@@ -30,6 +30,24 @@
     <xsl:template match="tei:date">
         <span class="date"><xsl:apply-templates/></span>
     </xsl:template>
+    <xsl:template match="tei:opener">
+    <div class="tei-opener"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:dateline">
+        <div class="tei-dateline"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:salute">
+        <div class="tei-salute"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:closer">
+        <div class="tei-closer"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:signed">
+        <div class="tei-signed"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:address">
+        <div class="tei-address"><xsl:apply-templates/></div>
+    </xsl:template>
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
