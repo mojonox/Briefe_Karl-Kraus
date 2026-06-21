@@ -110,6 +110,32 @@
     <xsl:template match="tei:p">
        <p><xsl:apply-templates/></p>
     </xsl:template>
+
+    <xsl:template match="tei:persName">
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <a class="ref persName" href="{concat(substring-after(@ref, '#'), '.html')}">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <xsl:template match="tei:placeName">
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <a class="ref placeName" href="{concat(substring-after(@ref, '#'), '.html')}">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     
     <xsl:template match="tei:table">
         <xsl:element name="table">
