@@ -71,7 +71,7 @@
             </p>
             <closer>
                <salute>Herzliche Grüsse</salute>
-               <signed>Von <persName ref="#jule_stoeckl">Julchen</persName></signed>
+               <signed>von <persName ref="#jule_stoeckl">Julchen</persName></signed>
                <address>
                   <addrLine>Herrn</addrLine>
                   <addrLine><persName ref="#karl_kraus">Karl Kraus</persName></addrLine>
@@ -88,7 +88,7 @@
                <lb/>Ich habe bereits das <unclear>sog.</unclear>
                <lb/><unclear>südl.</unclear>  <gap reason="illegible" unit="words" quantity="1"/> für
                <lb/>ein <gap reason="illegible" unit="words" quantity="1"/> <unclear>Erfindung</unclear>
-               <lb/><gap reason="illegible" unit="words" quantity="2"/>
+               <lb/><gap reason="illegible" unit="words" quantity="1"/> <gap reason="illegible" unit="words" quantity="1"/>
                <lb/><gap reason="illegible" unit="words" quantity="1"/>
             </p>
       </body>
