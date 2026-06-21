@@ -18,6 +18,11 @@
     <xsl:template match="tei:unclear">
         <abbr title="unclear"><xsl:apply-templates/></abbr>
     </xsl:template>
+    <xsl:template match="tei:gap">
+        <span class="gap" title="{string-join((@reason, @unit, @quantity), ' ')}">
+            <xsl:text>[…]</xsl:text>
+        </span>
+    </xsl:template>
     <xsl:template match="tei:del">
         <del><xsl:apply-templates/></del>
     </xsl:template>

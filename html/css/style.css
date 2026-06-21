@@ -99,6 +99,13 @@ main abbr[title="unclear"] {
     text-decoration: underline dotted #b08a3e;
     cursor: help;
 }
+
+/* Lücke / unleserliche Stelle (tei:gap -> span.gap) */
+main .gap {
+    color: #999;
+    cursor: help;
+}
+
 /* Hervorhebungen aus tei:hi */
 .italic { font-style: italic; }
 .bold { font-weight: 600; }
