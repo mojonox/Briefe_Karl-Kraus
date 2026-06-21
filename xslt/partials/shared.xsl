@@ -74,24 +74,29 @@
         <span>
             <xsl:choose>
                 <xsl:when test="@rendition = '#em'">
-                    <xsl:attribute name="class">
-                        <xsl:text>italic</xsl:text>
-                    </xsl:attribute>
+                    <xsl:attribute name="class">italic</xsl:attribute>
                 </xsl:when>
                 <xsl:when test="@rendition = '#italic'">
-                    <xsl:attribute name="class">
-                        <xsl:text>italic</xsl:text>
-                    </xsl:attribute>
+                    <xsl:attribute name="class">italic</xsl:attribute>
                 </xsl:when>
                 <xsl:when test="@rendition = '#smallcaps'">
-                    <xsl:attribute name="class">
-                        <xsl:text>smallcaps</xsl:text>
-                    </xsl:attribute>
+                    <xsl:attribute name="class">smallcaps</xsl:attribute>
                 </xsl:when>
                 <xsl:when test="@rendition = '#bold'">
-                    <xsl:attribute name="class">
-                        <xsl:text>bold</xsl:text>
-                    </xsl:attribute>
+                    <xsl:attribute name="class">bold</xsl:attribute>
+                </xsl:when>
+                <!-- @rend-Werte (wie in deinem TEI verwendet) -->
+                <xsl:when test="@rend = 'underline'">
+                    <xsl:attribute name="class">underline</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rend = 'italic'">
+                    <xsl:attribute name="class">italic</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rend = 'bold'">
+                    <xsl:attribute name="class">bold</xsl:attribute>
+                </xsl:when>
+                <xsl:when test="@rend = 'superscript'">
+                    <xsl:attribute name="class">superscript</xsl:attribute>
                 </xsl:when>
             </xsl:choose>
             <xsl:apply-templates/>
