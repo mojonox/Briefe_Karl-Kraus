@@ -14,17 +14,44 @@ div#map {
     cursor: pointer;
 }
 
+/* ====== Farbsystem: Pergament & Bordeaux ====== */
+:root {
+    --bg: #FAF6EC;          /* Pergament/Creme statt Pink */
+    --text: #1F1B16;        /* warmes Fast-Schwarz */
+    --accent: #7B2D26;      /* Bordeaux */
+    --accent-soft: #f3e7e0; /* sehr helles Bordeaux für Flächen */
+    --link: #9E3B33;
+    --link-hover: #5E1F1A;
+    --rule: #e3d9c4;        /* dezente Linien auf Pergament */
+}
+
 body {
-    background-color: #FEF2F2;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
+/* Navbar in Bordeaux statt Pink */
 header nav {
-    --bs-tertiary-bg: #fe88a2;
+    --bs-tertiary-bg: var(--accent);
+    --bs-tertiary-bg-rgb: 123, 45, 38;
+}
+/* Navbar-Text/Links hell, damit auf Bordeaux lesbar */
+header nav .navbar-brand,
+header nav .nav-link,
+header nav .navbar-toggler-icon {
+    color: #FAF6EC;
+}
+header nav .nav-link:hover,
+header nav .dropdown-toggle:hover {
+    color: #f0d9c8;
 }
 
-header nav {
-    --bs-tertiary-bg-rgb: 255, 195, 211;
-}
+/* Links im Editionstext */
+main a { color: var(--link); }
+main a:hover { color: var(--link-hover); }
+
+/* Überschriften in Bordeaux */
+main h1, main h2, main h3 { color: var(--accent); }
 
 main h1 {
     margin-top: 2rem;
