@@ -57,13 +57,13 @@
       <body>
          <pb facs="#surf-IMG_DEFAULT_5717033" n="1"/>
             <opener>
-               <salute><lb/>Lieber Krause!</salute>
+               <salute><lb/>Lieber <persName ref="#karl_kraus">Krause!</persName></salute>
             </opener>
             <p>
                Es
                <lb/>geht uns hier sehr
                <lb/>gut, aber wir möch
-               <lb/>ten <gap reason="illegible"/>es gerne
+               <lb/>ten <gap reason="illegible"/> <unclear>es</unclear> gerne
                <lb/>Nachricht über Ihr
                <lb/>Befinden haben.
                <lb/>Bitte, bitte schrei-
@@ -75,7 +75,7 @@
                <address>
                   <addrLine>Herrn</addrLine>
                   <addrLine>Karl Kraus</addrLine>
-                  <addrLine>Wien IV</addrLine>
+                  <addrLine><placeName ref="#wien">Wien</placeName> IV</addrLine>
                   <addrLine>Schwindgasse 3</addrLine>
                </address>
             </closer>
