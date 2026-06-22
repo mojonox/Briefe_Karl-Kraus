@@ -99,7 +99,7 @@
             </p>
             <closer>
                <salute><lb/>Adieu. Ich grüße Sie.</salute>
-               <signed>R.K.</signed>
+               <signed><persName ref="#rk">R.K.</persName></signed>
                <address>
                   <addrLine>Herrn <hi rend="underline">Karl Kraus.</hi></addrLine>
                   <addrLine>I Dominikanerbastei 22.</addrLine>
